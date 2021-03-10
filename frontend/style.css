@@ -1,7 +1,8 @@
 .homepage  {
-    background-image: url("https://i.etsystatic.com/24193080/r/il/206e0f/2631966459/il_1588xN.2631966459_pch6.jpg");
+    /* background-image: url("https://i.etsystatic.com/24193080/r/il/206e0f/2631966459/il_1588xN.2631966459_pch6.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 100%; */
+    background-color: black;
     margin: 0;
     padding: 0;
   }
@@ -14,14 +15,22 @@
   padding: 0;
 }
 
-.headline {
-    width: 2000px;
-    height: 100px;
-    margin: 300px 0;
+.box-one {
+    width: auto;
+    height: 105vh;
+    margin: 0;
     font-size: 24px;
     font-style: italic;
     color: cornsilk;
-    display: flex;
+    display: block;
+    background-color: #000;
+}
+
+.box-two {
+  height: 500vh;
+  background-repeat: no-repeat;
+  background-image: url("https://i.etsystatic.com/24193080/r/il/206e0f/2631966459/il_1588xN.2631966459_pch6.jpg");;
+  width: auto;
 }
 
 .title-section {
@@ -30,8 +39,10 @@
   vertical-align: text-top;
 }
 
-video {
-  object-fit: cover;
+#video {
+  object-fit: fill;
+  box-sizing: content-box;
+  filter: opacity(0%);
 }
 
 #title {
@@ -46,12 +57,12 @@ video {
     font-size: 3em;
     font-family: sans-serif;
     letter-spacing: 0.2em;
-    z-index: 10;
+    z-index: 5;
 }  
 
 #title span {
   display: inline-block;
-  animation: animate 1s linear forwards;
+  animation: animate 2s linear forwards;
   opacity: 0;
 }
 
@@ -114,7 +125,7 @@ video {
   }
   100%
   {
-    opacity: 0;
+    opacity: 10;
     transform: rotateY(0deg);
     filter: blur(0);
   }
