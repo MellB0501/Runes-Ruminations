@@ -6,11 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Rune Ruminations</title>
+    <script src="app.js" defer></script>
 </head>
-<body>
-    <form action="http://localhost:3000/runes" method="POST">
-    <div id="card-container"></div>
-    <script src="app.js"></script>
+<body class="homepage">
+
+    <header class="headline">
+        <section class="title-section">
+            <video src="smoke.mp4" autoplay muted></video>
+            <h1 id="title">
+                <span>R</span>
+                <span>U</span>
+                <span>N</span>
+                <span>E</span>
+                <span> </span>
+                <span>r</span>
+                <span>u</span>
+                <span>m</span>
+                <span>i</span>
+                <span>n</span>
+                <span>a</span>
+                <span>t</span>
+                <span>i</span>
+                <span>o</span>
+                <span>n</span>
+                <span>s</span>
+            </h1>
+        </section>
+
+        <!-- <h2 id="subtitle">The magical stones that reveal the mysteries of your life</h2> -->
+    </header>
+    <form action="http://localhost:3001/rune.html" method="GET">
+        <input class="button" type="submit" value="Consult the RUNES"/>
     </form>
+    <div class="oracle">
+        <h3 id="p1">RUNES are alphabetical signs at least eighteen centuries old elaborated by ancient European people. 
+            These signs used to be employed in peotry, stone carvings and fortune-telling by many ancient tribes, such as, the Germans, the Celts, and the Vikings.
+        </h3>
+        <h3 id="p2">Although they are an alphabet, the RUNES never became a spoken idiom. Each of its signs is a magical symbol.
+            Therefore, the RUNES were assumed to be a ritual language, becoming the voice of an oracle.
+        </h3>
+        <h3 id="p3">Oracles, however, do not tell the future. Their purpose is to direct people to what is happening inside their minds
+            in order to reach the answers from the subconcience.
+        </h3>
+    </div>
 </body>
 </html>
