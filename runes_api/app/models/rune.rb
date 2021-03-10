@@ -1,2 +1,0 @@
-class Rune < ApplicationRecord
-end
