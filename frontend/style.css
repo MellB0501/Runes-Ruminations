@@ -31,9 +31,19 @@
   font-family: 'Unica One', cursive;
   font-weight: 5000;
   font-size: 2em;
-  color: black;
+  color: rgb(27, 13, 3);
+  text-align: center;
+
 }
 
+.button-two {
+  box-shadow: 5px 5px 20px;
+  position: absolute;
+  top: 8px;
+  left:16px;
+  font-size: 24px;
+  border: snow;
+}
 .card {
   display: flex;
   flex-direction: column;
@@ -51,10 +61,10 @@
 }
 
 h2 {
-  border: 2px solid white;
+  border: 2px solid cornsilk;
   border-radius: 10px;
-  background-color: white;
-  opacity: 75%;
+  background-color: cornsilk;
+  opacity: 60%;
   font-size: 1.0em;
 }
 
