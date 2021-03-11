@@ -1,11 +1,9 @@
-.homepage  {
-    /* background-image: url("https://i.etsystatic.com/24193080/r/il/206e0f/2631966459/il_1588xN.2631966459_pch6.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%; */
+ .homepage  {
+    background-size: 100vh; 
     background-color: black;
-    margin: 0;
-    padding: 0;
-  }
+    margin: auto;
+    padding:  0vh;
+  } 
 
 /* .runepage {
   background-image: url("https://mymodernmet.com/wp/wp-content/uploads/2021/02/baikal-zen-2.jpg");
@@ -33,16 +31,15 @@
   font-size: 2em;
   color: rgb(27, 13, 3);
   text-align: center;
-
 }
 
 .button-two {
-  box-shadow: 5px 5px 20px;
   position: absolute;
   top: 8px;
   left:16px;
-  font-size: 24px;
-  border: snow;
+  font-size: 50px;
+  border-radius: 5px;
+  font-family: 'Unica One', cursive;
 }
 .card {
   display: flex;
@@ -62,7 +59,7 @@
 
 h2 {
   border: 2px solid cornsilk;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: cornsilk;
   opacity: 60%;
   font-size: 1.0em;
@@ -72,12 +69,12 @@ h2 {
   max-width: 1200px;
   margin: 0 auto;
   height: 100%;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .box-one {
     width: auto;
-    height: 105vh;
+    /* height: 105vh; */
     margin: 0;
     font-size: 24px;
     font-style: italic;
@@ -88,14 +85,14 @@ h2 {
 }
 
 .box-two {
-  height: 500vh;
+  /* height: 500vh; */
   background-repeat: no-repeat;
   background-image: url("https://i.etsystatic.com/24193080/r/il/206e0f/2631966459/il_1588xN.2631966459_pch6.jpg");;
   width: auto;
 }
 
 .title-section {
-  height: 100vh;
+  height: 75vh;
   background: #000;
   vertical-align: text-top;
 }
@@ -104,6 +101,10 @@ h2 {
   object-fit: fill;
   box-sizing: content-box;
   filter: opacity(0%);
+}
+
+.subtitle {
+  text-align: center;
 }
 
 #title {
@@ -191,39 +192,92 @@ h2 {
     filter: blur(0);
   }
 }
-@font-face {
-  font-family: myFirstFont;
-  src: url(norse-font.zip);
-}
-
 
 .oracle {
     align-content: flex-start;
-    width: 1000px;
-    height: 100px;
+    width: auto;
+    height: auto;
     margin: 300px 0;
-    font-size: 24px;
-    font-style: myFirstFont;
-    color: cornsilk;
+    font-size: 40px;
+    font-style: italic;
+    color: black;
     font-family: 'Unica One', cursive;
+    text-align: center;
+    border: 5px solid cornsilk;
+    border-radius: 5px;
+    background-color: cornsilk;
+    opacity: 30%;
+}
+
+.oracle-2 {
+  align-content: flex-start;
+  width: auto;
+  height: auto;
+  margin: 300px 0px;
+  font-size: 40px;
+  font-style: italic;
+  color: black;
+  font-family: 'Unica One', cursive;
+  text-align: center;
+  border: 10px solid cornsilk;
+  border-radius: 5px;
+  background-color: cornsilk;
+  opacity: 30%;
+}
+
+.oracle-3 {
+  align-content: flex-start;
+  width: auto;
+  height: auto;
+  margin: 300px 0;
+  font-size: 40px;
+  font-style: italic;
+  color: black;
+  font-family: 'Unica One', cursive;
+  text-align: center;
+  border: 5px solid cornsilk;
+  border-radius: 5px;
+  background-color: cornsilk;
+  opacity: 35%;
+}
+
+.smokesignal {  
+  /* background-image: url("https://i.pinimg.com/originals/59/ed/a0/59eda0efedac845c8aa79cfa05aff72b.jpg"); */
+  background-repeat: no-repeat;
+  object-position: center;
+  background-blend-mode: saturation;
+  opacity: 35%;
+  /* z-index: 0; */
 }
 
 .button {
-    background-color: #008E97;
+    background-color: black;
     background-blend-mode: transparent;
     border-radius: 5px;
-    color: white;
-    padding: 15px 32px;
+    color: whitesmoke;
+    /* padding: 15px 32px; */
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 24px;
+    font-size: 50px;
     font-style: oblique;
     margin: 4px 2px;
     cursor: pointer;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 75px;
-    box-shadow: 100px 60px 20px 5px #5F9EA0;
+    font-family: 'Unica One', cursive;
+    /* height: 75px; */
+    /* box-shadow: 5px 5px 5px 5px #5F9EA0; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
-  
+  .button-two {
+    position: absolute;
+    top: 8px;
+    left:16px;
+    font-size: 50px;
+    border-radius: 5px;
+    font-family: 'Unica One', cursive;
+  }  
