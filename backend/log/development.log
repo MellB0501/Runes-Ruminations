@@ -281,3 +281,1998 @@ Processing by RandomRuneController#show as */*
 Completed 200 OK in 6ms (Views: 0.7ms | ActiveRecord: 2.4ms | Allocations: 1451)
 
 
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.4ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 4]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 5]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 6]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 7]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 8]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 9]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 10]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 11]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 12]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 13]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 14]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 15]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 16]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 17]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.7ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 18]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 19]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 20]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 21]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 22]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 23]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 24]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 25]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 26]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 27]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 28]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.9ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "ANSUZ"], ["symbol", "https://upload.wikimedia.org/wikipedia/commons/0/07/Runic_letter_fehu.png"], ["description", "Be ready for the unexpected. Changes! ANSUZ urges you to explore your depths as well as to practice your sensibility and power of observation."], ["created_at", "2021-03-11 14:42:11.035655"], ["updated_at", "2021-03-11 14:42:11.035655"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "HAGALAZ"], ["symbol", "https://static.thenounproject.com/png/2069884-200.png"], ["description", "Wish of change and freedom. But for that it is necessary to put the material reality aside. Look at your inner world. If things seeem to be out of control a break-up might a good idea. Self growth cycle."], ["created_at", "2021-03-11 14:42:11.040486"], ["updated_at", "2021-03-11 14:42:11.040486"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.4ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "KANO"], ["symbol", "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Runic_letter_kauna.svg/239px-Runic_letter_kauna.svg.png"], ["description", "This is the RUNE of fire. It means the end of darkness in your life. Your passion and sensuality may be a sign of a coming marriage."], ["created_at", "2021-03-11 14:42:11.044226"], ["updated_at", "2021-03-11 14:42:11.044226"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "EIWAZ"], ["symbol", "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Runic_letter_iwaz.svg/1200px-Runic_letter_iwaz.svg.png"], ["description", "It means things will turn out fine, no matter how difficult they are. The obstacles are instruments to test your patience. Hold your anxiety."], ["created_at", "2021-03-11 14:42:11.048657"], ["updated_at", "2021-03-11 14:42:11.048657"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.4ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "OTHILA"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-othala-bold-400w-280x280.png"], ["description", "It means radical break up ahead but you will reach your dreams: your role in society, material goods, and your beliefs. To find out how you really are you may need to put away some of your claims."], ["created_at", "2021-03-11 14:42:11.053245"], ["updated_at", "2021-03-11 14:42:11.053245"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "MANAZ"], ["symbol", "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Runic_letter_mannaz.svg/1200px-Runic_letter_mannaz.svg.png"], ["description", "The start up: the need to improve your 'self', to help your relationship with the world. Keep your modesty. Your path will be found."], ["created_at", "2021-03-11 14:42:11.057650"], ["updated_at", "2021-03-11 14:42:11.057650"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "PERTH"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-pertho-bold-400w-280x280.png"], ["description", "Mysterious powers are taking place but tend to be revealed. It is a perfect time for reflection and also material gains."], ["created_at", "2021-03-11 14:42:11.060845"], ["updated_at", "2021-03-11 14:42:11.060845"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.5ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "BERKANA"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-berkanan-bold-400w-280x280.png"], ["description", "Fertility. The birth of a person or a new idea. Take your steps carefully."], ["created_at", "2021-03-11 14:42:11.064606"], ["updated_at", "2021-03-11 14:42:11.064606"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "GEBO"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-gebo-bold-400w.png"], ["description", "It is union, partnership of any sort. But you must keep your individuality and self confidence. For this is the RUNE of freedom. In any position it has the same meaning."], ["created_at", "2021-03-11 14:42:11.068852"], ["updated_at", "2021-03-11 14:42:11.068852"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "RAIDO"], ["symbol", "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Runic_letter_raido.svg/1200px-Runic_letter_raido.svg.png"], ["description", "This is the moment to act. Find out what your heart wishes. Resistances will be gone. RAIDO is union and reunion. The end of conflicts."], ["created_at", "2021-03-11 14:42:11.071981"], ["updated_at", "2021-03-11 14:42:11.071981"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "THURISAZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-thurisaz-bold1-400w.png"], ["description", "The door is it's symbol. Then observe every moment, every detail. Think it all over and get free from your ghosts. Then cross the borders."], ["created_at", "2021-03-11 14:42:11.074644"], ["updated_at", "2021-03-11 14:42:11.074644"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "DAGAZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-dagaz-bold-400w.png"], ["description", "A big turn over in your life. Might be a new love, new work, new opportunities, or a new life attitude. DAGAZ claims darkness is gone and the sun will light your way."], ["created_at", "2021-03-11 14:42:11.078085"], ["updated_at", "2021-03-11 14:42:11.078085"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "SOWELU"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-sowilo-bold-400w.png"], ["description", "It is a victory and success. To some however, it can be a trip to the inner world in search of balance. It is time to admit something long denied."], ["created_at", "2021-03-11 14:42:11.081180"], ["updated_at", "2021-03-11 14:42:11.081180"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "LAGUZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-laguz-bold-400w.png"], ["description", "You urge to follow your instincts but you forget the negative consequences. This is the RUNE of the supernatural power inside your mind that will give you protection."], ["created_at", "2021-03-11 14:42:11.084630"], ["updated_at", "2021-03-11 14:42:11.084630"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "ISA"], ["symbol", "https://ourfamilycode.com/wp-content/uploads/2019/11/Runes-Isa-I.png"], ["description", "All your plans will stay frozen and suspended although you do not realize that. Do not overwork. Try to find out what keeps you attached to your situation and throw away what is old. Resignation might mean wisdom. Warning: do not count on your friends help."], ["created_at", "2021-03-11 14:42:11.087638"], ["updated_at", "2021-03-11 14:42:11.087638"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "ALGIZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-tiwaz-bold-400w.png"], ["description", "This is the RUNE of action, victory, new opportunities, and challenges. Be strong and take control of your emotions. Problems should not be ignored."], ["created_at", "2021-03-11 14:42:11.106068"], ["updated_at", "2021-03-11 14:42:11.106068"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "EHWAZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-tiwaz-bold-400w.png"], ["description", "Changes! It can even be a home moving to another country. Your decisions tend to be right."], ["created_at", "2021-03-11 14:42:11.109007"], ["updated_at", "2021-03-11 14:42:11.109007"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "TEIWAZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-tiwaz-bold-400w.png"], ["description", "Victory at any competition. If the question is love, you and your partner have a lot to work out together."], ["created_at", "2021-03-11 14:42:11.111667"], ["updated_at", "2021-03-11 14:42:11.111667"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "WUNJO"], ["symbol", "https://ourfamilycode.com/wp-content/uploads/2019/11/Runes-Wunjo-W.png"], ["description", "Comprehension has become wisdom and a deep and lasting affection is about to come. Joy at work."], ["created_at", "2021-03-11 14:42:11.114906"], ["updated_at", "2021-03-11 14:42:11.114906"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "JERA"], ["symbol", "https://image.shutterstock.com/image-vector/jera-rune-year-yeild-harvest-260nw-1270166134.jpg"], ["description", "It invites you to optimism, but nothing comes fast, since each happening has its own cycle. Keep your trust and perseverance."], ["created_at", "2021-03-11 14:42:11.117824"], ["updated_at", "2021-03-11 14:42:11.117824"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "NAUTIZ"], ["symbol", "https://i.pinimg.com/originals/34/17/2f/34172faf723647827fef06d8bdb17619.png"], ["description", "Your dark sides block you and make you weak. Investigate what makes you so attractive to bad luck."], ["created_at", "2021-03-11 14:42:11.121348"], ["updated_at", "2021-03-11 14:42:11.121348"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "INGUZ"], ["symbol", "https://i.pinimg.com/originals/29/b2/16/29b21657fdec2b396caabb7dae1d2f0f.png"], ["description", "Claims you to split up relationships or old habits. You are ready for a new start. Even for a new child. The meantime could be dangerous. So keep your good mood."], ["created_at", "2021-03-11 14:42:11.124706"], ["updated_at", "2021-03-11 14:42:11.124706"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "FEHU"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-fehu-bold-400w.png"], ["description", "Great luck: wealth, goals, and love to come true. This is a conquest a not a present. Share your luck!"], ["created_at", "2021-03-11 14:42:11.127501"], ["updated_at", "2021-03-11 14:42:11.127501"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "URUZ"], ["symbol", "https://orbus.online/images/e/ec/Uruz_Rune.png"], ["description", "You may lose someone or something. You will rise from the remainings of old values."], ["created_at", "2021-03-11 14:42:11.130222"], ["updated_at", "2021-03-11 14:42:11.130222"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "The Plain RUNE"], ["symbol", ""], ["description", "This RUNE is destiny. It guides your karma, the whole of all your previous existences. Your obstacles are your passport to a new start. Cheer up! This RUNE links you to your real fate. Good Luck!"], ["created_at", "2021-03-11 14:42:11.133004"], ["updated_at", "2021-03-11 14:42:11.133004"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/random_rune" for ::1 at 2021-03-11 07:44:35 -0700
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 16ms (Views: 0.6ms | ActiveRecord: 1.0ms | Allocations: 7374)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 07:44:37 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 958)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 07:44:38 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 958)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 07:44:39 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 958)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 07:44:39 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.3ms | Allocations: 958)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 07:44:40 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 07:44:41 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 07:44:42 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.4ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.4ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 07:44:42 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.6ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.6ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 07:44:43 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 07:44:44 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mRune Load (0.1ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 29]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 30]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 31]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 32]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 33]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 34]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 35]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 36]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 37]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 38]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 39]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 40]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 41]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 42]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 43]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 44]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 45]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 46]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 47]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 48]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 49]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 50]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 51]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 52]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 53]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.4ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "ANSUZ"], ["symbol", "https://upload.wikimedia.org/wikipedia/commons/0/07/Runic_letter_fehu.png"], ["description", "Be ready for the unexpected. Changes! ANSUZ urges you to explore your depths as well as to practice your sensibility and power of observation."], ["created_at", "2021-03-11 14:52:21.737249"], ["updated_at", "2021-03-11 14:52:21.737249"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "HAGALAZ"], ["symbol", "https://upload.wikimedia.org/wikipedia/commons/2/25/Runic_letter_haglaz.png"], ["description", "Wish of change and freedom. But for that it is necessary to put the material reality aside. Look at your inner world. If things seeem to be out of control a break-up might a good idea. Self growth cycle."], ["created_at", "2021-03-11 14:52:21.740953"], ["updated_at", "2021-03-11 14:52:21.740953"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "KANO"], ["symbol", "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Runic_letter_kauna.svg/832px-Runic_letter_kauna.svg.png"], ["description", "This is the RUNE of fire. It means the end of darkness in your life. Your passion and sensuality may be a sign of a coming marriage."], ["created_at", "2021-03-11 14:52:21.743610"], ["updated_at", "2021-03-11 14:52:21.743610"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "EIWAZ"], ["symbol", "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Runic_letter_iwaz.svg/1152px-Runic_letter_iwaz.svg.png"], ["description", "It means things will turn out fine, no matter how difficult they are. The obstacles are instruments to test your patience. Hold your anxiety."], ["created_at", "2021-03-11 14:52:21.746906"], ["updated_at", "2021-03-11 14:52:21.746906"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "OTHILA"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-othala-bold-400w-280x280.png"], ["description", "It means radical break up ahead but you will reach your dreams: your role in society, material goods, and your beliefs. To find out how you really are you may need to put away some of your claims."], ["created_at", "2021-03-11 14:52:21.750202"], ["updated_at", "2021-03-11 14:52:21.750202"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "MANAZ"], ["symbol", "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Runic_letter_mannaz.svg/1200px-Runic_letter_mannaz.svg.png"], ["description", "The start up: the need to improve your 'self', to help your relationship with the world. Keep your modesty. Your path will be found."], ["created_at", "2021-03-11 14:52:21.753658"], ["updated_at", "2021-03-11 14:52:21.753658"]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.4ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "PERTH"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-pertho-bold-400w-280x280.png"], ["description", "Mysterious powers are taking place but tend to be revealed. It is a perfect time for reflection and also material gains."], ["created_at", "2021-03-11 14:52:21.757998"], ["updated_at", "2021-03-11 14:52:21.757998"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.4ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "BERKANA"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-berkanan-bold-400w-280x280.png"], ["description", "Fertility. The birth of a person or a new idea. Take your steps carefully."], ["created_at", "2021-03-11 14:52:21.762933"], ["updated_at", "2021-03-11 14:52:21.762933"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "GEBO"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-gebo-bold-400w.png"], ["description", "It is union, partnership of any sort. But you must keep your individuality and self confidence. For this is the RUNE of freedom. In any position it has the same meaning."], ["created_at", "2021-03-11 14:52:21.767533"], ["updated_at", "2021-03-11 14:52:21.767533"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "RAIDO"], ["symbol", "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Runic_letter_raido.svg/1200px-Runic_letter_raido.svg.png"], ["description", "This is the moment to act. Find out what your heart wishes. Resistances will be gone. RAIDO is union and reunion. The end of conflicts."], ["created_at", "2021-03-11 14:52:21.770986"], ["updated_at", "2021-03-11 14:52:21.770986"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "THURISAZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-thurisaz-bold1-400w.png"], ["description", "The door is it's symbol. Then observe every moment, every detail. Think it all over and get free from your ghosts. Then cross the borders."], ["created_at", "2021-03-11 14:52:21.774548"], ["updated_at", "2021-03-11 14:52:21.774548"]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.4ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "DAGAZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-dagaz-bold-400w.png"], ["description", "A big turn over in your life. Might be a new love, new work, new opportunities, or a new life attitude. DAGAZ claims darkness is gone and the sun will light your way."], ["created_at", "2021-03-11 14:52:21.778925"], ["updated_at", "2021-03-11 14:52:21.778925"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.4ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "SOWELU"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-sowilo-bold-400w.png"], ["description", "It is a victory and success. To some however, it can be a trip to the inner world in search of balance. It is time to admit something long denied."], ["created_at", "2021-03-11 14:52:21.783526"], ["updated_at", "2021-03-11 14:52:21.783526"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "LAGUZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-laguz-bold-400w.png"], ["description", "You urge to follow your instincts but you forget the negative consequences. This is the RUNE of the supernatural power inside your mind that will give you protection."], ["created_at", "2021-03-11 14:52:21.787433"], ["updated_at", "2021-03-11 14:52:21.787433"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "ISA"], ["symbol", "https://ourfamilycode.com/wp-content/uploads/2019/11/Runes-Isa-I.png"], ["description", "All your plans will stay frozen and suspended although you do not realize that. Do not overwork. Try to find out what keeps you attached to your situation and throw away what is old. Resignation might mean wisdom. Warning: do not count on your friends help."], ["created_at", "2021-03-11 14:52:21.790724"], ["updated_at", "2021-03-11 14:52:21.790724"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "ALGIZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-tiwaz-bold-400w.png"], ["description", "This is the RUNE of action, victory, new opportunities, and challenges. Be strong and take control of your emotions. Problems should not be ignored."], ["created_at", "2021-03-11 14:52:21.811214"], ["updated_at", "2021-03-11 14:52:21.811214"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "EHWAZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-tiwaz-bold-400w.png"], ["description", "Changes! It can even be a home moving to another country. Your decisions tend to be right."], ["created_at", "2021-03-11 14:52:21.814186"], ["updated_at", "2021-03-11 14:52:21.814186"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "TEIWAZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-tiwaz-bold-400w.png"], ["description", "Victory at any competition. If the question is love, you and your partner have a lot to work out together."], ["created_at", "2021-03-11 14:52:21.817275"], ["updated_at", "2021-03-11 14:52:21.817275"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "WUNJO"], ["symbol", "https://ourfamilycode.com/wp-content/uploads/2019/11/Runes-Wunjo-W.png"], ["description", "Comprehension has become wisdom and a deep and lasting affection is about to come. Joy at work."], ["created_at", "2021-03-11 14:52:21.820009"], ["updated_at", "2021-03-11 14:52:21.820009"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "JERA"], ["symbol", "https://image.shutterstock.com/image-vector/jera-rune-year-yeild-harvest-260nw-1270166134.jpg"], ["description", "It invites you to optimism, but nothing comes fast, since each happening has its own cycle. Keep your trust and perseverance."], ["created_at", "2021-03-11 14:52:21.823742"], ["updated_at", "2021-03-11 14:52:21.823742"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "NAUTIZ"], ["symbol", "https://i.pinimg.com/originals/34/17/2f/34172faf723647827fef06d8bdb17619.png"], ["description", "Your dark sides block you and make you weak. Investigate what makes you so attractive to bad luck."], ["created_at", "2021-03-11 14:52:21.826697"], ["updated_at", "2021-03-11 14:52:21.826697"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "INGUZ"], ["symbol", "https://i.pinimg.com/originals/29/b2/16/29b21657fdec2b396caabb7dae1d2f0f.png"], ["description", "Claims you to split up relationships or old habits. You are ready for a new start. Even for a new child. The meantime could be dangerous. So keep your good mood."], ["created_at", "2021-03-11 14:52:21.830525"], ["updated_at", "2021-03-11 14:52:21.830525"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "FEHU"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-fehu-bold-400w.png"], ["description", "Great luck: wealth, goals, and love to come true. This is a conquest a not a present. Share your luck!"], ["created_at", "2021-03-11 14:52:21.834389"], ["updated_at", "2021-03-11 14:52:21.834389"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "URUZ"], ["symbol", "https://orbus.online/images/e/ec/Uruz_Rune.png"], ["description", "You may lose someone or something. You will rise from the remainings of old values."], ["created_at", "2021-03-11 14:52:21.838778"], ["updated_at", "2021-03-11 14:52:21.838778"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "The Plain RUNE"], ["symbol", ""], ["description", "This RUNE is destiny. It guides your karma, the whole of all your previous existences. Your obstacles are your passport to a new start. Cheer up! This RUNE links you to your real fate. Good Luck!"], ["created_at", "2021-03-11 14:52:21.841907"], ["updated_at", "2021-03-11 14:52:21.841907"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/random_rune" for ::1 at 2021-03-11 07:52:40 -0700
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 26ms (Views: 0.6ms | ActiveRecord: 1.2ms | Allocations: 7376)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 07:52:44 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.3ms | Allocations: 958)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 07:52:46 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.3ms | Allocations: 958)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 07:52:47 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 958)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 07:52:48 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 958)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 07:52:49 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.3ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 07:52:53 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 07:52:54 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 07:52:55 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.3ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 07:52:56 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 07:52:58 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 07:52:59 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.3ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 07:53:00 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 07:53:01 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 07:53:02 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 07:53:03 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 939)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 07:53:06 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 07:53:08 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 07:53:09 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:01:44 -0700
+Processing by RandomRuneController#show as */*
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 6ms (Views: 1.2ms | ActiveRecord: 0.9ms | Allocations: 1451)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:01:48 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:01:49 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.4ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.4ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:01:50 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:01:50 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.3ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:01:51 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.3ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:01:54 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 0.3ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:01:55 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:01:56 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.3ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:01:57 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.3ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:01:57 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.5ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.5ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:01:58 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.6ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.6ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:01:59 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 54]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 55]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 56]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 57]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 58]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 59]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 60]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 61]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 62]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 63]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 64]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 65]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 66]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 67]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 68]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 69]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.4ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 70]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 71]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 72]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 73]]
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 74]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.4ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 75]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 76]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 77]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 78]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "ANSUZ"], ["symbol", "ansuz.png"], ["description", "Be ready for the unexpected. Changes! ANSUZ urges you to explore your depths as well as to practice your sensibility and power of observation."], ["created_at", "2021-03-11 15:24:03.399996"], ["updated_at", "2021-03-11 15:24:03.399996"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "HAGALAZ"], ["symbol", "https://upload.wikimedia.org/wikipedia/commons/2/25/Runic_letter_haglaz.png"], ["description", "Wish of change and freedom. But for that it is necessary to put the material reality aside. Look at your inner world. If things seeem to be out of control a break-up might a good idea. Self growth cycle."], ["created_at", "2021-03-11 15:24:03.403811"], ["updated_at", "2021-03-11 15:24:03.403811"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "KANO"], ["symbol", "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Runic_letter_kauna.svg/832px-Runic_letter_kauna.svg.png"], ["description", "This is the RUNE of fire. It means the end of darkness in your life. Your passion and sensuality may be a sign of a coming marriage."], ["created_at", "2021-03-11 15:24:03.407434"], ["updated_at", "2021-03-11 15:24:03.407434"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "EIWAZ"], ["symbol", "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Runic_letter_iwaz.svg/1152px-Runic_letter_iwaz.svg.png"], ["description", "It means things will turn out fine, no matter how difficult they are. The obstacles are instruments to test your patience. Hold your anxiety."], ["created_at", "2021-03-11 15:24:03.410459"], ["updated_at", "2021-03-11 15:24:03.410459"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "OTHILA"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-othala-bold-400w-280x280.png"], ["description", "It means radical break up ahead but you will reach your dreams: your role in society, material goods, and your beliefs. To find out how you really are you may need to put away some of your claims."], ["created_at", "2021-03-11 15:24:03.413141"], ["updated_at", "2021-03-11 15:24:03.413141"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "MANAZ"], ["symbol", "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Runic_letter_mannaz.svg/1200px-Runic_letter_mannaz.svg.png"], ["description", "The start up: the need to improve your 'self', to help your relationship with the world. Keep your modesty. Your path will be found."], ["created_at", "2021-03-11 15:24:03.415920"], ["updated_at", "2021-03-11 15:24:03.415920"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "PERTH"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-pertho-bold-400w-280x280.png"], ["description", "Mysterious powers are taking place but tend to be revealed. It is a perfect time for reflection and also material gains."], ["created_at", "2021-03-11 15:24:03.418929"], ["updated_at", "2021-03-11 15:24:03.418929"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "BERKANA"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-berkanan-bold-400w-280x280.png"], ["description", "Fertility. The birth of a person or a new idea. Take your steps carefully."], ["created_at", "2021-03-11 15:24:03.421953"], ["updated_at", "2021-03-11 15:24:03.421953"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "GEBO"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-gebo-bold-400w.png"], ["description", "It is union, partnership of any sort. But you must keep your individuality and self confidence. For this is the RUNE of freedom. In any position it has the same meaning."], ["created_at", "2021-03-11 15:24:03.424742"], ["updated_at", "2021-03-11 15:24:03.424742"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "RAIDO"], ["symbol", "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Runic_letter_raido.svg/1200px-Runic_letter_raido.svg.png"], ["description", "This is the moment to act. Find out what your heart wishes. Resistances will be gone. RAIDO is union and reunion. The end of conflicts."], ["created_at", "2021-03-11 15:24:03.427596"], ["updated_at", "2021-03-11 15:24:03.427596"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "THURISAZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-thurisaz-bold1-400w.png"], ["description", "The door is it's symbol. Then observe every moment, every detail. Think it all over and get free from your ghosts. Then cross the borders."], ["created_at", "2021-03-11 15:24:03.430423"], ["updated_at", "2021-03-11 15:24:03.430423"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "DAGAZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-dagaz-bold-400w.png"], ["description", "A big turn over in your life. Might be a new love, new work, new opportunities, or a new life attitude. DAGAZ claims darkness is gone and the sun will light your way."], ["created_at", "2021-03-11 15:24:03.433141"], ["updated_at", "2021-03-11 15:24:03.433141"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "SOWELU"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-sowilo-bold-400w.png"], ["description", "It is a victory and success. To some however, it can be a trip to the inner world in search of balance. It is time to admit something long denied."], ["created_at", "2021-03-11 15:24:03.436800"], ["updated_at", "2021-03-11 15:24:03.436800"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "LAGUZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-laguz-bold-400w.png"], ["description", "You urge to follow your instincts but you forget the negative consequences. This is the RUNE of the supernatural power inside your mind that will give you protection."], ["created_at", "2021-03-11 15:24:03.440501"], ["updated_at", "2021-03-11 15:24:03.440501"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "ISA"], ["symbol", "https://ourfamilycode.com/wp-content/uploads/2019/11/Runes-Isa-I.png"], ["description", "All your plans will stay frozen and suspended although you do not realize that. Do not overwork. Try to find out what keeps you attached to your situation and throw away what is old. Resignation might mean wisdom. Warning: do not count on your friends help."], ["created_at", "2021-03-11 15:24:03.443857"], ["updated_at", "2021-03-11 15:24:03.443857"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "ALGIZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-tiwaz-bold-400w.png"], ["description", "This is the RUNE of action, victory, new opportunities, and challenges. Be strong and take control of your emotions. Problems should not be ignored."], ["created_at", "2021-03-11 15:24:03.462290"], ["updated_at", "2021-03-11 15:24:03.462290"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "EHWAZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-tiwaz-bold-400w.png"], ["description", "Changes! It can even be a home moving to another country. Your decisions tend to be right."], ["created_at", "2021-03-11 15:24:03.465266"], ["updated_at", "2021-03-11 15:24:03.465266"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "TEIWAZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-tiwaz-bold-400w.png"], ["description", "Victory at any competition. If the question is love, you and your partner have a lot to work out together."], ["created_at", "2021-03-11 15:24:03.468017"], ["updated_at", "2021-03-11 15:24:03.468017"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "WUNJO"], ["symbol", "https://ourfamilycode.com/wp-content/uploads/2019/11/Runes-Wunjo-W.png"], ["description", "Comprehension has become wisdom and a deep and lasting affection is about to come. Joy at work."], ["created_at", "2021-03-11 15:24:03.471358"], ["updated_at", "2021-03-11 15:24:03.471358"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "JERA"], ["symbol", "https://image.shutterstock.com/image-vector/jera-rune-year-yeild-harvest-260nw-1270166134.jpg"], ["description", "It invites you to optimism, but nothing comes fast, since each happening has its own cycle. Keep your trust and perseverance."], ["created_at", "2021-03-11 15:24:03.474261"], ["updated_at", "2021-03-11 15:24:03.474261"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "NAUTIZ"], ["symbol", "https://i.pinimg.com/originals/34/17/2f/34172faf723647827fef06d8bdb17619.png"], ["description", "Your dark sides block you and make you weak. Investigate what makes you so attractive to bad luck."], ["created_at", "2021-03-11 15:24:03.476990"], ["updated_at", "2021-03-11 15:24:03.476990"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "INGUZ"], ["symbol", "https://i.pinimg.com/originals/29/b2/16/29b21657fdec2b396caabb7dae1d2f0f.png"], ["description", "Claims you to split up relationships or old habits. You are ready for a new start. Even for a new child. The meantime could be dangerous. So keep your good mood."], ["created_at", "2021-03-11 15:24:03.480213"], ["updated_at", "2021-03-11 15:24:03.480213"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "FEHU"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-fehu-bold-400w.png"], ["description", "Great luck: wealth, goals, and love to come true. This is a conquest a not a present. Share your luck!"], ["created_at", "2021-03-11 15:24:03.483231"], ["updated_at", "2021-03-11 15:24:03.483231"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "URUZ"], ["symbol", "https://orbus.online/images/e/ec/Uruz_Rune.png"], ["description", "You may lose someone or something. You will rise from the remainings of old values."], ["created_at", "2021-03-11 15:24:03.486335"], ["updated_at", "2021-03-11 15:24:03.486335"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "The Plain RUNE"], ["symbol", ""], ["description", "This RUNE is destiny. It guides your karma, the whole of all your previous existences. Your obstacles are your passport to a new start. Cheer up! This RUNE links you to your real fate. Good Luck!"], ["created_at", "2021-03-11 15:24:03.490337"], ["updated_at", "2021-03-11 15:24:03.490337"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/random_rune" for ::1 at 2021-03-11 08:24:15 -0700
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 29ms (Views: 0.5ms | ActiveRecord: 1.2ms | Allocations: 7393)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:24:17 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.3ms | Allocations: 958)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:24:18 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 958)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:24:19 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.1ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.1ms | Allocations: 958)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:24:19 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.3ms | Allocations: 958)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:24:20 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:24:21 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:24:21 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.1ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.1ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:24:23 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:24:26 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:24:27 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.6ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.6ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:24:28 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.6ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.6ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:24:29 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (1.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 1.3ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:24:30 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.6ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 4ms (Views: 0.8ms | ActiveRecord: 0.6ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:24:30 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:24:31 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:24:32 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.3ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:24:33 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:24:33 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.4ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.4ms | Allocations: 939)
+
+
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.4ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 79]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 80]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 81]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 82]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 83]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 84]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 85]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 86]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 87]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 88]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 89]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 90]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 91]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 92]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 93]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 94]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 95]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 96]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 97]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 98]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 99]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 100]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 101]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 102]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 103]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.4ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "ANSUZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-ansuz-bold-400w.png"], ["description", "Be ready for the unexpected. Changes! ANSUZ urges you to explore your depths as well as to practice your sensibility and power of observation."], ["created_at", "2021-03-11 15:27:08.675352"], ["updated_at", "2021-03-11 15:27:08.675352"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "HAGALAZ"], ["symbol", "https://upload.wikimedia.org/wikipedia/commons/2/25/Runic_letter_haglaz.png"], ["description", "Wish of change and freedom. But for that it is necessary to put the material reality aside. Look at your inner world. If things seeem to be out of control a break-up might a good idea. Self growth cycle."], ["created_at", "2021-03-11 15:27:08.679803"], ["updated_at", "2021-03-11 15:27:08.679803"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "KANO"], ["symbol", "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Runic_letter_kauna.svg/832px-Runic_letter_kauna.svg.png"], ["description", "This is the RUNE of fire. It means the end of darkness in your life. Your passion and sensuality may be a sign of a coming marriage."], ["created_at", "2021-03-11 15:27:08.682977"], ["updated_at", "2021-03-11 15:27:08.682977"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "EIWAZ"], ["symbol", "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Runic_letter_iwaz.svg/1152px-Runic_letter_iwaz.svg.png"], ["description", "It means things will turn out fine, no matter how difficult they are. The obstacles are instruments to test your patience. Hold your anxiety."], ["created_at", "2021-03-11 15:27:08.686483"], ["updated_at", "2021-03-11 15:27:08.686483"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "OTHILA"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-othala-bold-400w-280x280.png"], ["description", "It means radical break up ahead but you will reach your dreams: your role in society, material goods, and your beliefs. To find out how you really are you may need to put away some of your claims."], ["created_at", "2021-03-11 15:27:08.689728"], ["updated_at", "2021-03-11 15:27:08.689728"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "MANAZ"], ["symbol", "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Runic_letter_mannaz.svg/1200px-Runic_letter_mannaz.svg.png"], ["description", "The start up: the need to improve your 'self', to help your relationship with the world. Keep your modesty. Your path will be found."], ["created_at", "2021-03-11 15:27:08.693269"], ["updated_at", "2021-03-11 15:27:08.693269"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "PERTH"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-pertho-bold-400w-280x280.png"], ["description", "Mysterious powers are taking place but tend to be revealed. It is a perfect time for reflection and also material gains."], ["created_at", "2021-03-11 15:27:08.696217"], ["updated_at", "2021-03-11 15:27:08.696217"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "BERKANA"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-berkanan-bold-400w-280x280.png"], ["description", "Fertility. The birth of a person or a new idea. Take your steps carefully."], ["created_at", "2021-03-11 15:27:08.699199"], ["updated_at", "2021-03-11 15:27:08.699199"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "GEBO"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-gebo-bold-400w.png"], ["description", "It is union, partnership of any sort. But you must keep your individuality and self confidence. For this is the RUNE of freedom. In any position it has the same meaning."], ["created_at", "2021-03-11 15:27:08.702244"], ["updated_at", "2021-03-11 15:27:08.702244"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "RAIDO"], ["symbol", "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Runic_letter_raido.svg/1200px-Runic_letter_raido.svg.png"], ["description", "This is the moment to act. Find out what your heart wishes. Resistances will be gone. RAIDO is union and reunion. The end of conflicts."], ["created_at", "2021-03-11 15:27:08.705869"], ["updated_at", "2021-03-11 15:27:08.705869"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "THURISAZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-thurisaz-bold1-400w.png"], ["description", "The door is it's symbol. Then observe every moment, every detail. Think it all over and get free from your ghosts. Then cross the borders."], ["created_at", "2021-03-11 15:27:08.708783"], ["updated_at", "2021-03-11 15:27:08.708783"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "DAGAZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-dagaz-bold-400w.png"], ["description", "A big turn over in your life. Might be a new love, new work, new opportunities, or a new life attitude. DAGAZ claims darkness is gone and the sun will light your way."], ["created_at", "2021-03-11 15:27:08.711528"], ["updated_at", "2021-03-11 15:27:08.711528"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "SOWELU"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-sowilo-bold-400w.png"], ["description", "It is a victory and success. To some however, it can be a trip to the inner world in search of balance. It is time to admit something long denied."], ["created_at", "2021-03-11 15:27:08.714398"], ["updated_at", "2021-03-11 15:27:08.714398"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "LAGUZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-laguz-bold-400w.png"], ["description", "You urge to follow your instincts but you forget the negative consequences. This is the RUNE of the supernatural power inside your mind that will give you protection."], ["created_at", "2021-03-11 15:27:08.717938"], ["updated_at", "2021-03-11 15:27:08.717938"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "ISA"], ["symbol", "https://ourfamilycode.com/wp-content/uploads/2019/11/Runes-Isa-I.png"], ["description", "All your plans will stay frozen and suspended although you do not realize that. Do not overwork. Try to find out what keeps you attached to your situation and throw away what is old. Resignation might mean wisdom. Warning: do not count on your friends help."], ["created_at", "2021-03-11 15:27:08.720830"], ["updated_at", "2021-03-11 15:27:08.720830"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "ALGIZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-tiwaz-bold-400w.png"], ["description", "This is the RUNE of action, victory, new opportunities, and challenges. Be strong and take control of your emotions. Problems should not be ignored."], ["created_at", "2021-03-11 15:27:08.740056"], ["updated_at", "2021-03-11 15:27:08.740056"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "EHWAZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-tiwaz-bold-400w.png"], ["description", "Changes! It can even be a home moving to another country. Your decisions tend to be right."], ["created_at", "2021-03-11 15:27:08.743199"], ["updated_at", "2021-03-11 15:27:08.743199"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "TEIWAZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-tiwaz-bold-400w.png"], ["description", "Victory at any competition. If the question is love, you and your partner have a lot to work out together."], ["created_at", "2021-03-11 15:27:08.746848"], ["updated_at", "2021-03-11 15:27:08.746848"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "WUNJO"], ["symbol", "https://ourfamilycode.com/wp-content/uploads/2019/11/Runes-Wunjo-W.png"], ["description", "Comprehension has become wisdom and a deep and lasting affection is about to come. Joy at work."], ["created_at", "2021-03-11 15:27:08.750458"], ["updated_at", "2021-03-11 15:27:08.750458"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "JERA"], ["symbol", "https://image.shutterstock.com/image-vector/jera-rune-year-yeild-harvest-260nw-1270166134.jpg"], ["description", "It invites you to optimism, but nothing comes fast, since each happening has its own cycle. Keep your trust and perseverance."], ["created_at", "2021-03-11 15:27:08.754680"], ["updated_at", "2021-03-11 15:27:08.754680"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "NAUTIZ"], ["symbol", "https://i.pinimg.com/originals/34/17/2f/34172faf723647827fef06d8bdb17619.png"], ["description", "Your dark sides block you and make you weak. Investigate what makes you so attractive to bad luck."], ["created_at", "2021-03-11 15:27:08.757991"], ["updated_at", "2021-03-11 15:27:08.757991"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "INGUZ"], ["symbol", "https://i.pinimg.com/originals/29/b2/16/29b21657fdec2b396caabb7dae1d2f0f.png"], ["description", "Claims you to split up relationships or old habits. You are ready for a new start. Even for a new child. The meantime could be dangerous. So keep your good mood."], ["created_at", "2021-03-11 15:27:08.762196"], ["updated_at", "2021-03-11 15:27:08.762196"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "FEHU"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-fehu-bold-400w.png"], ["description", "Great luck: wealth, goals, and love to come true. This is a conquest a not a present. Share your luck!"], ["created_at", "2021-03-11 15:27:08.765378"], ["updated_at", "2021-03-11 15:27:08.765378"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "URUZ"], ["symbol", "https://orbus.online/images/e/ec/Uruz_Rune.png"], ["description", "You may lose someone or something. You will rise from the remainings of old values."], ["created_at", "2021-03-11 15:27:08.768109"], ["updated_at", "2021-03-11 15:27:08.768109"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "The Plain RUNE"], ["symbol", ""], ["description", "This RUNE is destiny. It guides your karma, the whole of all your previous existences. Your obstacles are your passport to a new start. Cheer up! This RUNE links you to your real fate. Good Luck!"], ["created_at", "2021-03-11 15:27:08.770863"], ["updated_at", "2021-03-11 15:27:08.770863"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:27 -0700
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 14ms (Views: 0.5ms | ActiveRecord: 0.8ms | Allocations: 7374)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:28 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 958)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:29 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.5ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.5ms | Allocations: 958)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:29 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 958)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:31 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.3ms | Allocations: 958)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:32 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:33 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:33 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:34 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.4ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.4ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:35 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:36 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:36 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:37 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:38 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:38 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:39 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (19.5ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 22ms (Views: 0.5ms | ActiveRecord: 19.5ms | Allocations: 941)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:40 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:40 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.5ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.5ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:41 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:42 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:43 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.3ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:44 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:45 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.1ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:45 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:46 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.1ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.1ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:47 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.1ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.1ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:48 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.1ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.1ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:49 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:50 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.1ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.1ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:50 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.3ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:51 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:52 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.4ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.4ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:52 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:53 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:54 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:54 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 4ms (Views: 1.5ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:55 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:56 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:56 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.3ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:57 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.8ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 12ms (Views: 0.5ms | ActiveRecord: 0.8ms | Allocations: 941)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:58 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.6ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:59 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:27:59 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:28:00 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:28:01 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.1ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.1ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:28:01 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:28:02 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.1ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.1ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:28:03 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:28:03 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mRune Load (0.1ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 104]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 105]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 106]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 107]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 108]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 109]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 110]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 111]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 112]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 113]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 114]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 115]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 116]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 117]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 118]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 119]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 120]]
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 121]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 122]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 123]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 124]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 125]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 126]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 127]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 128]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.4ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "ANSUZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-ansuz-bold-400w.png"], ["description", "Be ready for the unexpected. Changes! ANSUZ urges you to explore your depths as well as to practice your sensibility and power of observation."], ["created_at", "2021-03-11 15:34:50.983166"], ["updated_at", "2021-03-11 15:34:50.983166"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "HAGALAZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-hagalaz-bold-400w.png"], ["description", "Wish of change and freedom. But for that it is necessary to put the material reality aside. Look at your inner world. If things seeem to be out of control a break-up might a good idea. Self growth cycle."], ["created_at", "2021-03-11 15:34:50.987656"], ["updated_at", "2021-03-11 15:34:50.987656"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.4ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "KANO"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-kaunan-bold-400w.png"], ["description", "This is the RUNE of fire. It means the end of darkness in your life. Your passion and sensuality may be a sign of a coming marriage."], ["created_at", "2021-03-11 15:34:50.991964"], ["updated_at", "2021-03-11 15:34:50.991964"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "EIWAZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-eiwaz-bold-400w.png"], ["description", "It means things will turn out fine, no matter how difficult they are. The obstacles are instruments to test your patience. Hold your anxiety."], ["created_at", "2021-03-11 15:34:50.996159"], ["updated_at", "2021-03-11 15:34:50.996159"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "OTHILA"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-othala-bold-400w.png"], ["description", "It means radical break up ahead but you will reach your dreams: your role in society, material goods, and your beliefs. To find out how you really are you may need to put away some of your claims."], ["created_at", "2021-03-11 15:34:51.000159"], ["updated_at", "2021-03-11 15:34:51.000159"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.4ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "MANAZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-mannaz-bold-400w.png"], ["description", "The start up: the need to improve your 'self', to help your relationship with the world. Keep your modesty. Your path will be found."], ["created_at", "2021-03-11 15:34:51.004289"], ["updated_at", "2021-03-11 15:34:51.004289"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "PERTH"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-pertho-bold-400w.png"], ["description", "Mysterious powers are taking place but tend to be revealed. It is a perfect time for reflection and also material gains."], ["created_at", "2021-03-11 15:34:51.009008"], ["updated_at", "2021-03-11 15:34:51.009008"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.5ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "BERKANA"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-berkanan-bold-400w.png"], ["description", "Fertility. The birth of a person or a new idea. Take your steps carefully."], ["created_at", "2021-03-11 15:34:51.013375"], ["updated_at", "2021-03-11 15:34:51.013375"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.4ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "GEBO"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-gebo-bold-400w.png"], ["description", "It is union, partnership of any sort. But you must keep your individuality and self confidence. For this is the RUNE of freedom. In any position it has the same meaning."], ["created_at", "2021-03-11 15:34:51.018074"], ["updated_at", "2021-03-11 15:34:51.018074"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.4ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "RAIDO"], ["symbol", "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Runic_letter_raido.svg/1200px-Runic_letter_raido.svg.png"], ["description", "This is the moment to act. Find out what your heart wishes. Resistances will be gone. RAIDO is union and reunion. The end of conflicts."], ["created_at", "2021-03-11 15:34:51.022573"], ["updated_at", "2021-03-11 15:34:51.022573"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "THURISAZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-thurisaz-bold1-400w.png"], ["description", "The door is it's symbol. Then observe every moment, every detail. Think it all over and get free from your ghosts. Then cross the borders."], ["created_at", "2021-03-11 15:34:51.026103"], ["updated_at", "2021-03-11 15:34:51.026103"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.4ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "DAGAZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-dagaz-bold-400w.png"], ["description", "A big turn over in your life. Might be a new love, new work, new opportunities, or a new life attitude. DAGAZ claims darkness is gone and the sun will light your way."], ["created_at", "2021-03-11 15:34:51.029761"], ["updated_at", "2021-03-11 15:34:51.029761"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "SOWELU"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-sowilo-bold-400w.png"], ["description", "It is a victory and success. To some however, it can be a trip to the inner world in search of balance. It is time to admit something long denied."], ["created_at", "2021-03-11 15:34:51.034110"], ["updated_at", "2021-03-11 15:34:51.034110"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.4ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "LAGUZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-laguz-bold-400w.png"], ["description", "You urge to follow your instincts but you forget the negative consequences. This is the RUNE of the supernatural power inside your mind that will give you protection."], ["created_at", "2021-03-11 15:34:51.038560"], ["updated_at", "2021-03-11 15:34:51.038560"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "ISA"], ["symbol", "https://ourfamilycode.com/wp-content/uploads/2019/11/Runes-Isa-I.png"], ["description", "All your plans will stay frozen and suspended although you do not realize that. Do not overwork. Try to find out what keeps you attached to your situation and throw away what is old. Resignation might mean wisdom. Warning: do not count on your friends help."], ["created_at", "2021-03-11 15:34:51.042499"], ["updated_at", "2021-03-11 15:34:51.042499"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "ALGIZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-tiwaz-bold-400w.png"], ["description", "This is the RUNE of action, victory, new opportunities, and challenges. Be strong and take control of your emotions. Problems should not be ignored."], ["created_at", "2021-03-11 15:34:51.061691"], ["updated_at", "2021-03-11 15:34:51.061691"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "EHWAZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-tiwaz-bold-400w.png"], ["description", "Changes! It can even be a home moving to another country. Your decisions tend to be right."], ["created_at", "2021-03-11 15:34:51.065338"], ["updated_at", "2021-03-11 15:34:51.065338"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "TEIWAZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-tiwaz-bold-400w.png"], ["description", "Victory at any competition. If the question is love, you and your partner have a lot to work out together."], ["created_at", "2021-03-11 15:34:51.069605"], ["updated_at", "2021-03-11 15:34:51.069605"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "WUNJO"], ["symbol", "https://ourfamilycode.com/wp-content/uploads/2019/11/Runes-Wunjo-W.png"], ["description", "Comprehension has become wisdom and a deep and lasting affection is about to come. Joy at work."], ["created_at", "2021-03-11 15:34:51.073900"], ["updated_at", "2021-03-11 15:34:51.073900"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.4ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "JERA"], ["symbol", "https://image.shutterstock.com/image-vector/jera-rune-year-yeild-harvest-260nw-1270166134.jpg"], ["description", "It invites you to optimism, but nothing comes fast, since each happening has its own cycle. Keep your trust and perseverance."], ["created_at", "2021-03-11 15:34:51.077455"], ["updated_at", "2021-03-11 15:34:51.077455"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "NAUTIZ"], ["symbol", "https://i.pinimg.com/originals/34/17/2f/34172faf723647827fef06d8bdb17619.png"], ["description", "Your dark sides block you and make you weak. Investigate what makes you so attractive to bad luck."], ["created_at", "2021-03-11 15:34:51.081115"], ["updated_at", "2021-03-11 15:34:51.081115"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "INGUZ"], ["symbol", "https://i.pinimg.com/originals/29/b2/16/29b21657fdec2b396caabb7dae1d2f0f.png"], ["description", "Claims you to split up relationships or old habits. You are ready for a new start. Even for a new child. The meantime could be dangerous. So keep your good mood."], ["created_at", "2021-03-11 15:34:51.084690"], ["updated_at", "2021-03-11 15:34:51.084690"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "FEHU"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-fehu-bold-400w.png"], ["description", "Great luck: wealth, goals, and love to come true. This is a conquest a not a present. Share your luck!"], ["created_at", "2021-03-11 15:34:51.088652"], ["updated_at", "2021-03-11 15:34:51.088652"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "URUZ"], ["symbol", "https://orbus.online/images/e/ec/Uruz_Rune.png"], ["description", "You may lose someone or something. You will rise from the remainings of old values."], ["created_at", "2021-03-11 15:34:51.091698"], ["updated_at", "2021-03-11 15:34:51.091698"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "The Plain RUNE"], ["symbol", ""], ["description", "This RUNE is destiny. It guides your karma, the whole of all your previous existences. Your obstacles are your passport to a new start. Cheer up! This RUNE links you to your real fate. Good Luck!"], ["created_at", "2021-03-11 15:34:51.094568"], ["updated_at", "2021-03-11 15:34:51.094568"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/random_rune" for ::1 at 2021-03-11 08:35:17 -0700
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 15ms (Views: 0.5ms | ActiveRecord: 0.6ms | Allocations: 7373)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:35:18 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 958)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:35:19 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.1ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms | Allocations: 958)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:35:21 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.4ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.4ms | Allocations: 958)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:35:22 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 958)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:35:23 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.4ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.4ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:35:24 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:35:25 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:35:26 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:35:27 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:35:27 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 939)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:35:28 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.3ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:35:29 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.1ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.1ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:35:32 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:35:33 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 17ms (Views: 0.5ms | ActiveRecord: 0.3ms | Allocations: 941)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:35:34 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.3ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:35:40 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:35:41 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 6ms (Views: 1.6ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:35:42 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:35:43 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:35:44 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:35:45 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mRune Load (0.1ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 129]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 130]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 131]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 132]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 133]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 134]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 135]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 136]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 137]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 138]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 139]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 140]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 141]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 142]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 143]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 144]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 145]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 146]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 147]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 148]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 149]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 150]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 151]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.2ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 152]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Destroy (0.3ms)[0m  [1m[31mDELETE FROM "runes" WHERE "runes"."id" = ?[0m  [["id", 153]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "ANSUZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-ansuz-bold-400w.png"], ["description", "Be ready for the unexpected. Changes! ANSUZ urges you to explore your depths as well as to practice your sensibility and power of observation."], ["created_at", "2021-03-11 15:57:50.258058"], ["updated_at", "2021-03-11 15:57:50.258058"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "HAGALAZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-hagalaz-bold-400w.png"], ["description", "Wish of change and freedom. But for that it is necessary to put the material reality aside. Look at your inner world. If things seeem to be out of control a break-up might a good idea. Self growth cycle."], ["created_at", "2021-03-11 15:57:50.261117"], ["updated_at", "2021-03-11 15:57:50.261117"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "KANO"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-kaunan-bold-400w.png"], ["description", "This is the RUNE of fire. It means the end of darkness in your life. Your passion and sensuality may be a sign of a coming marriage."], ["created_at", "2021-03-11 15:57:50.263761"], ["updated_at", "2021-03-11 15:57:50.263761"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "EIWAZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-eiwaz-bold-400w.png"], ["description", "It means things will turn out fine, no matter how difficult they are. The obstacles are instruments to test your patience. Hold your anxiety."], ["created_at", "2021-03-11 15:57:50.266749"], ["updated_at", "2021-03-11 15:57:50.266749"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "OTHILA"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-othala-bold-400w.png"], ["description", "It means radical break up ahead but you will reach your dreams: your role in society, material goods, and your beliefs. To find out how you really are you may need to put away some of your claims."], ["created_at", "2021-03-11 15:57:50.269850"], ["updated_at", "2021-03-11 15:57:50.269850"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "MANAZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-mannaz-bold-400w.png"], ["description", "The start up: the need to improve your 'self', to help your relationship with the world. Keep your modesty. Your path will be found."], ["created_at", "2021-03-11 15:57:50.272591"], ["updated_at", "2021-03-11 15:57:50.272591"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "PERTH"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-pertho-bold-400w.png"], ["description", "Mysterious powers are taking place but tend to be revealed. It is a perfect time for reflection and also material gains."], ["created_at", "2021-03-11 15:57:50.275351"], ["updated_at", "2021-03-11 15:57:50.275351"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.4ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "BERKANA"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-berkanan-bold-400w.png"], ["description", "Fertility. The birth of a person or a new idea. Take your steps carefully."], ["created_at", "2021-03-11 15:57:50.278155"], ["updated_at", "2021-03-11 15:57:50.278155"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "GEBO"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-gebo-bold-400w.png"], ["description", "It is union, partnership of any sort. But you must keep your individuality and self confidence. For this is the RUNE of freedom. In any position it has the same meaning."], ["created_at", "2021-03-11 15:57:50.281303"], ["updated_at", "2021-03-11 15:57:50.281303"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "RAIDO"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-raidho-bold-400w-1.png"], ["description", "This is the moment to act. Find out what your heart wishes. Resistances will be gone. RAIDO is union and reunion. The end of conflicts."], ["created_at", "2021-03-11 15:57:50.284019"], ["updated_at", "2021-03-11 15:57:50.284019"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "THURISAZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-thurisaz-bold1-400w.png"], ["description", "The door is it's symbol. Then observe every moment, every detail. Think it all over and get free from your ghosts. Then cross the borders."], ["created_at", "2021-03-11 15:57:50.286700"], ["updated_at", "2021-03-11 15:57:50.286700"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "DAGAZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-dagaz-bold-400w.png"], ["description", "A big turn over in your life. Might be a new love, new work, new opportunities, or a new life attitude. DAGAZ claims darkness is gone and the sun will light your way."], ["created_at", "2021-03-11 15:57:50.289682"], ["updated_at", "2021-03-11 15:57:50.289682"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.4ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "SOWELU"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-sowilo-bold-400w.png"], ["description", "It is a victory and success. To some however, it can be a trip to the inner world in search of balance. It is time to admit something long denied."], ["created_at", "2021-03-11 15:57:50.293861"], ["updated_at", "2021-03-11 15:57:50.293861"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.4ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "LAGUZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-laguz-bold-400w.png"], ["description", "You urge to follow your instincts but you forget the negative consequences. This is the RUNE of the supernatural power inside your mind that will give you protection."], ["created_at", "2021-03-11 15:57:50.298803"], ["updated_at", "2021-03-11 15:57:50.298803"]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "ISA"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-isa-bold-400w.png"], ["description", "All your plans will stay frozen and suspended although you do not realize that. Do not overwork. Try to find out what keeps you attached to your situation and throw away what is old. Resignation might mean wisdom. Warning: do not count on your friends help."], ["created_at", "2021-03-11 15:57:50.318848"], ["updated_at", "2021-03-11 15:57:50.318848"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "ALGIZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-tiwaz-bold-400w.png"], ["description", "This is the RUNE of action, victory, new opportunities, and challenges. Be strong and take control of your emotions. Problems should not be ignored."], ["created_at", "2021-03-11 15:57:50.322134"], ["updated_at", "2021-03-11 15:57:50.322134"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "EHWAZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-tiwaz-bold-400w.png"], ["description", "Changes! It can even be a home moving to another country. Your decisions tend to be right."], ["created_at", "2021-03-11 15:57:50.325272"], ["updated_at", "2021-03-11 15:57:50.325272"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "TEIWAZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-tiwaz-bold-400w.png"], ["description", "Victory at any competition. If the question is love, you and your partner have a lot to work out together."], ["created_at", "2021-03-11 15:57:50.329153"], ["updated_at", "2021-03-11 15:57:50.329153"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "WUNJO"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-wunjo-bold-400w.png"], ["description", "Comprehension has become wisdom and a deep and lasting affection is about to come. Joy at work."], ["created_at", "2021-03-11 15:57:50.333341"], ["updated_at", "2021-03-11 15:57:50.333341"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "JERA"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-jera-bold-400w.png"], ["description", "It invites you to optimism, but nothing comes fast, since each happening has its own cycle. Keep your trust and perseverance."], ["created_at", "2021-03-11 15:57:50.336395"], ["updated_at", "2021-03-11 15:57:50.336395"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "NAUTIZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-naudhiz-bold-400w.png"], ["description", "Your dark sides block you and make you weak. Investigate what makes you so attractive to bad luck."], ["created_at", "2021-03-11 15:57:50.339014"], ["updated_at", "2021-03-11 15:57:50.339014"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.2ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "INGUZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-ingwaz-bold-400w.png"], ["description", "Claims you to split up relationships or old habits. You are ready for a new start. Even for a new child. The meantime could be dangerous. So keep your good mood."], ["created_at", "2021-03-11 15:57:50.341482"], ["updated_at", "2021-03-11 15:57:50.341482"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.4ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "FEHU"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-fehu-bold-400w.png"], ["description", "Great luck: wealth, goals, and love to come true. This is a conquest a not a present. Share your luck!"], ["created_at", "2021-03-11 15:57:50.344808"], ["updated_at", "2021-03-11 15:57:50.344808"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.3ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "URUZ"], ["symbol", "https://symbolikon.com/wp-content/uploads/edd/2019/09/NordicRunes-uruz-bold-400w.png"], ["description", "You may lose someone or something. You will rise from the remainings of old values."], ["created_at", "2021-03-11 15:57:50.348806"], ["updated_at", "2021-03-11 15:57:50.348806"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRune Create (0.4ms)[0m  [1m[32mINSERT INTO "runes" ("name", "symbol", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "The Plain RUNE"], ["symbol", "https://upload.wikimedia.org/wikipedia/commons/0/00/WX_circle_white.png"], ["description", "This RUNE is destiny. It guides your karma, the whole of all your previous existences. Your obstacles are your passport to a new start. Cheer up! This RUNE links you to your real fate. Good Luck!"], ["created_at", "2021-03-11 15:57:50.352811"], ["updated_at", "2021-03-11 15:57:50.352811"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/random_rune" for ::1 at 2021-03-11 08:58:04 -0700
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 17ms (Views: 0.5ms | ActiveRecord: 0.8ms | Allocations: 7429)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:58:07 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.9ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.9ms | Allocations: 958)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:58:09 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.3ms | Allocations: 958)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:58:10 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.3ms | Allocations: 958)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:58:11 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.6ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.6ms | Allocations: 958)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:58:11 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.5ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.5ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:58:12 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (1.0ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 1.0ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:58:13 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (1.0ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 1.0ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:58:13 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:58:13 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 943)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:58:14 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:58:14 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.3ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:58:14 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 4ms (Views: 0.8ms | ActiveRecord: 0.3ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:58:14 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.3ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.3ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:58:15 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:58:15 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:58:15 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
+Started GET "/random_rune" for ::1 at 2021-03-11 08:58:15 -0700
+Processing by RandomRuneController#show as */*
+  [1m[36mRune Load (0.2ms)[0m  [1m[34mSELECT "runes".* FROM "runes"[0m
+  ↳ app/controllers/random_rune_controller.rb:4:in `show'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 940)
+
+
