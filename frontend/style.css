@@ -7,12 +7,62 @@
     padding: 0;
   }
 
-.runepage {
+/* .runepage {
   background-image: url("https://mymodernmet.com/wp/wp-content/uploads/2021/02/baikal-zen-2.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin: 0;
   padding: 0;
+  width: auto;
+  height: auto;
+} */
+
+.runepage { 
+  background: url("https://images.squarespace-cdn.com/content/v1/5134f799e4b060819b14a3f4/1550878823018-AMIBWN55BR5FPWMFT0Z6/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmFk_H6M1tkD9NpL7mXac0oVSXdFfjxR5AjcLwGSebOiGBsFzzcw3xKxvyC_6CFFG_/IMG_0443.JPG") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Unica One', cursive;
+  font-weight: 5000;
+  font-size: 2em;
+  color: black;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rune-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* max-width: 250px;
+  max-height: 250px; */
+}
+
+h2 {
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: white;
+  opacity: 75%;
+  font-size: 1.0em;
+}
+
+#card-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  overflow: auto;
 }
 
 .box-one {
@@ -21,6 +71,7 @@
     margin: 0;
     font-size: 24px;
     font-style: italic;
+    font-family: 'Unica One', cursive;
     color: cornsilk;
     display: block;
     background-color: #000;
@@ -55,7 +106,7 @@
     text-align: center;
     color: #ddd;
     font-size: 3em;
-    font-family: sans-serif;
+    font-family: 'Unica One', cursive;
     letter-spacing: 0.2em;
     z-index: 5;
 }  
@@ -130,6 +181,10 @@
     filter: blur(0);
   }
 }
+@font-face {
+  font-family: myFirstFont;
+  src: url(norse-font.zip);
+}
 
 
 .oracle {
@@ -138,24 +193,27 @@
     height: 100px;
     margin: 300px 0;
     font-size: 24px;
-    font-style: italic;
+    font-style: myFirstFont;
     color: cornsilk;
+    font-family: 'Unica One', cursive;
 }
 
 .button {
-    background-color: #008080;
+    background-color: #008E97;
     background-blend-mode: transparent;
-    border: none;
+    border-radius: 5px;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 24px;
-    font-style: italic;
+    font-style: oblique;
     margin: 4px 2px;
     cursor: pointer;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 75px;
-    box-shadow: 100px 60px 20px 5px #0ff;
+    box-shadow: 100px 60px 20px 5px #5F9EA0;
   }
+
+  
