@@ -5,16 +5,6 @@
     padding:  0vh;
   } 
 
-/* .runepage {
-  background-image: url("https://mymodernmet.com/wp/wp-content/uploads/2021/02/baikal-zen-2.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  margin: 0;
-  padding: 0;
-  width: auto;
-  height: auto;
-} */
-
 .runepage { 
   background: url("https://images.squarespace-cdn.com/content/v1/5134f799e4b060819b14a3f4/1550878823018-AMIBWN55BR5FPWMFT0Z6/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmFk_H6M1tkD9NpL7mXac0oVSXdFfjxR5AjcLwGSebOiGBsFzzcw3xKxvyC_6CFFG_/IMG_0443.JPG") no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -28,7 +18,7 @@
   height: 100vh;
   font-family: 'Unica One', cursive;
   font-weight: 5000;
-  font-size: 2em;
+  font-size: 1em;
   color: rgb(27, 13, 3);
   text-align: center;
 }
@@ -62,7 +52,7 @@ h2 {
   border-radius: 5px;
   background-color: cornsilk;
   opacity: 60%;
-  font-size: 1.0em;
+  font-size: 2.0em;
 }
 
 #card-container {
@@ -97,14 +87,16 @@ h2 {
   vertical-align: text-top;
 }
 
-#video {
-  object-fit: fill;
+video {
+  object-fit: scale-down;
   box-sizing: content-box;
-  filter: opacity(0%);
+  width: 100vw;
 }
 
 .subtitle {
   text-align: center;
+  font-size: 1.5em;
+  font-family: 'Unica One' cursive;
 }
 
 #title {
@@ -226,7 +218,7 @@ h2 {
 }
 
 .oracle-3 {
-  align-content: flex-start;
+  align-content: unset;
   width: auto;
   height: auto;
   margin: 300px 0;
@@ -254,8 +246,8 @@ h2 {
     background-color: black;
     background-blend-mode: transparent;
     border-radius: 5px;
-    color: whitesmoke;
-    /* padding: 15px 32px; */
+    color: cornsilk;
+    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -264,8 +256,6 @@ h2 {
     margin: 4px 2px;
     cursor: pointer;
     font-family: 'Unica One', cursive;
-    /* height: 75px; */
-    /* box-shadow: 5px 5px 5px 5px #5F9EA0; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -274,10 +264,24 @@ h2 {
   }
 
   .button-two {
+    background-color: cornsilk;
     position: absolute;
     top: 8px;
     left:16px;
-    font-size: 50px;
+    /* background-blend-mode: transparent; */
     border-radius: 5px;
+    color: cornsilk;
+    /* padding: none; */
+    text-align: center;
+    /* text-decoration: none; */
+    display: block;
+    font-size: 0%;
+    /* font-style: oblique; */
+    margin: 0;
+    cursor: pointer;
     font-family: 'Unica One', cursive;
+    /* font-size: 50px;
+    border-radius: 5px;
+    font-family: 'Unica One', cursive; */
+    backface-visibility: hidden;
   }  
