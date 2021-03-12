@@ -23,14 +23,7 @@
   text-align: center;
 }
 
-.button-two {
-  position: absolute;
-  top: 8px;
-  left:16px;
-  font-size: 50px;
-  border-radius: 5px;
-  font-family: 'Unica One', cursive;
-}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -82,7 +75,7 @@ h2 {
 }
 
 .title-section {
-  height: 75vh;
+  /* height: 75vh; */
   background: #000;
   vertical-align: text-top;
 }
@@ -97,6 +90,8 @@ video {
   text-align: center;
   font-size: 1.5em;
   font-family: 'Unica One' cursive;
+  /* margin-bottom: 25px; */
+  
 }
 
 #title {
@@ -107,7 +102,7 @@ video {
     transform: translateY(-50%);
     width: 100%;
     text-align: center;
-    color: #ddd;
+    color: cornsilk;
     font-size: 3em;
     font-family: 'Unica One', cursive;
     letter-spacing: 0.2em;
@@ -218,7 +213,7 @@ video {
 }
 
 .oracle-3 {
-  align-content: unset;
+  align-content:unset
   width: auto;
   height: auto;
   margin: 300px 0;
@@ -263,25 +258,13 @@ video {
     align-items: center;
   }
 
-  .button-two {
-    background-color: cornsilk;
-    position: absolute;
-    top: 8px;
-    left:16px;
-    /* background-blend-mode: transparent; */
-    border-radius: 5px;
-    color: cornsilk;
-    /* padding: none; */
-    text-align: center;
-    /* text-decoration: none; */
-    display: block;
-    font-size: 0%;
-    /* font-style: oblique; */
-    margin: 0;
-    cursor: pointer;
-    font-family: 'Unica One', cursive;
-    /* font-size: 50px;
-    border-radius: 5px;
-    font-family: 'Unica One', cursive; */
-    backface-visibility: hidden;
-  }  
+.button-two {
+  background-color: white;
+  position: absolute;
+  top: 8px;
+  left:16px;
+  font-size: 20px;
+  border-radius: 5px;
+  font-family: 'Unica One', cursive;
+  border-color: transparent;
+}
